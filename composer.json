@@ -19,6 +19,7 @@
     "php": ">=8.4",
     "ifcastle/aql-aspects": "^0.1.0",
     "ifcastle/aql-dsl": "^0.1.0",
+    "ifcastle/aql-entity": "dev-main",
     "ifcastle/aql-result": "^0.1.0",
     "ifcastle/aql-storage": "^0.1.0",
     "ifcastle/aql-transaction": "^0.1.0",
@@ -43,8 +44,14 @@
     "phpunit/phpunit": "^11.2",
     "rector/rector": "^1.2",
     "ifcastle/codestyle": "^0.2.0",
-    "ifcastle/aql-test-utils": "^0.1.0"
+    "ifcastle/aql-test-utils": "^0.1.7"
   },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../aql-entity"
+    }
+  ],
   "scripts": {
     "test": "vendor/bin/phpunit ./tests",
     "cs-fix": "php-cs-fixer fix",

@@ -6,7 +6,7 @@ namespace IfCastle\AQL\Executor;
 
 use IfCastle\AQL\Dsl\Sql\Parameter\Parameter;
 use IfCastle\AQL\Dsl\Sql\Query\Select;
-use IfCastle\AQL\Storage\SomeStorageMock;
+use IfCastle\AQL\TestCases\SomeStorageMock;
 
 class SqlQueryExecutorTest extends SqlQueryExecutorTestCase
 {

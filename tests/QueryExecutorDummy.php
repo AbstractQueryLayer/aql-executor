@@ -11,7 +11,7 @@ use IfCastle\AQL\Executor\Plan\ExecutionContextInterface;
 use IfCastle\AQL\Result\ResultInterface;
 use IfCastle\AQL\Result\TupleInterface;
 use IfCastle\AQL\Storage\Exceptions\StorageException;
-use IfCastle\AQL\Storage\SomeStorageMock;
+use IfCastle\AQL\TestCases\SomeStorageMock;
 
 class QueryExecutorDummy extends QueryExecutorBasicAbstract
 {

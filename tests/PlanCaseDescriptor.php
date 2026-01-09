@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace IfCastle\AQL\Executor;
 
-use IfCastle\AQL\TestCaseDescriptors\TestCaseDescriptorInterface;
+use IfCastle\AQL\TestCases\TestCaseDescriptors\TestCaseDescriptorInterface;
 
 class PlanCaseDescriptor implements TestCaseDescriptorInterface
 {

@@ -14,7 +14,7 @@ use IfCastle\AQL\Entity\Manager\EntityDescriptorFactoryInterface;
 use IfCastle\AQL\Entity\Manager\EntityFactoryInterface;
 use IfCastle\AQL\Entity\Manager\EntityMemoryFactory;
 use IfCastle\AQL\Entity\Manager\EntityStorageInterface;
-use IfCastle\AQL\Storage\SqlStorageMock;
+use IfCastle\AQL\TestCases\SqlStorageMock;
 use IfCastle\AQL\Storage\StorageCollection;
 use IfCastle\AQL\Storage\StorageCollectionInterface;
 use IfCastle\AQL\Storage\StorageInterface;

@@ -10,7 +10,7 @@ use IfCastle\AQL\Aspects\Storage\Timestamps;
 use IfCastle\AQL\Dsl\Relation\RelationInterface;
 use IfCastle\AQL\Entity\EntityAbstract;
 use IfCastle\AQL\Entity\Property\PropertyString;
-use IfCastle\AQL\Storage\SomeStorageMock;
+use IfCastle\AQL\TestCases\SomeStorageMock;
 
 /**
  * BookFiles entity.
